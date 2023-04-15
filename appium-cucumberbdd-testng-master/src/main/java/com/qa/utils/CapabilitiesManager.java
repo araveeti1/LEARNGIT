@@ -15,7 +15,7 @@ public class CapabilitiesManager {
         Properties props = new PropertyManager().getProps();
 
         try{
-            utils.log().info("getting desired capabilities.");
+            utils.log().info("getting desired capabilities.This is feature Branch");
             DesiredCapabilities caps = new DesiredCapabilities();
             caps.setCapability(MobileCapabilityType.PLATFORM_NAME, params.getPlatformName());
             caps.setCapability(MobileCapabilityType.UDID, params.getUDID());
