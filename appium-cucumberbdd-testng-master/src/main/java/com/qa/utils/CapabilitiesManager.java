@@ -50,6 +50,7 @@ public class CapabilitiesManager {
         } catch(Exception e){
             e.printStackTrace();
             utils.log().fatal("Failed to load capabilities. ABORT!!" + e.toString());
+            utils.log().info("getting capabilities.This is feature branch");
             throw e;
         }
     }
