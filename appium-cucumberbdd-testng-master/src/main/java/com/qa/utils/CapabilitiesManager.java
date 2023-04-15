@@ -15,7 +15,7 @@ public class CapabilitiesManager {
         Properties props = new PropertyManager().getProps();
 
         try{
-            utils.log().info("getting capabilities.This is main branch");
+            utils.log().info("getting capabilities.This is main branch.verify commit and push from main branch");
             DesiredCapabilities caps = new DesiredCapabilities();
             caps.setCapability(MobileCapabilityType.PLATFORM_NAME, params.getPlatformName());
             caps.setCapability(MobileCapabilityType.UDID, params.getUDID());
