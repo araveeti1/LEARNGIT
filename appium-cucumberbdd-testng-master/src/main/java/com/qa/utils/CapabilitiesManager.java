@@ -15,7 +15,7 @@ public class CapabilitiesManager {
         Properties props = new PropertyManager().getProps();
 
         try{
-            utils.log().info("getting capabilities.This is main branch.verify commit and push from main branch");
+            utils.log().info("getting capabilities.This is main branch.");
             DesiredCapabilities caps = new DesiredCapabilities();
             caps.setCapability(MobileCapabilityType.PLATFORM_NAME, params.getPlatformName());
             caps.setCapability(MobileCapabilityType.UDID, params.getUDID());
@@ -50,7 +50,10 @@ public class CapabilitiesManager {
         } catch(Exception e){
             e.printStackTrace();
             utils.log().fatal("Failed to load capabilities. ABORT!!" + e.toString());
-            utils.log().info("getting capabilities.This is feature branch");
+            utils.log().info("getting capabilities.This is feature branch1");
+            utils.log().info("getting capabilities.This is feature branch2");
+            utils.log().info("getting capabilities.This is feature branch3");
+            utils.log().info("getting capabilities.This is feature branch4");
             throw e;
         }
     }
