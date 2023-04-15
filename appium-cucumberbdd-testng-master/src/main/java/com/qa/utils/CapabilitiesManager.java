@@ -16,7 +16,7 @@ public class CapabilitiesManager {
 
         try{
             utils.log().info("getting capabilities Branch1");
-            utils.log().info("getting capabilities Branch1 line2feature into feature branch");
+            utils.log().info("getting capabilities Branch1 line2feature into feature branch from main branch.This is main branch");
             DesiredCapabilities caps = new DesiredCapabilities();
             caps.setCapability(MobileCapabilityType.PLATFORM_NAME, params.getPlatformName());
             caps.setCapability(MobileCapabilityType.UDID, params.getUDID());
