@@ -15,7 +15,7 @@ public class CapabilitiesManager {
         Properties props = new PropertyManager().getProps();
 
         try{
-            utils.log().info("getting desired capabilities.This is main Branch.committed the latest code.");
+            utils.log().info("getting desired capabilities!!!");
             DesiredCapabilities caps = new DesiredCapabilities();
             caps.setCapability(MobileCapabilityType.PLATFORM_NAME, params.getPlatformName());
             caps.setCapability(MobileCapabilityType.UDID, params.getUDID());
