@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="0" failed="0" skipped="2">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-15T17:55:25 GMT-04:00" name="Suite" finished-at="2023-04-15T17:55:31 GMT-04:00" duration-ms="6432">
+    <groups>
+      <group name="cucumber">
+        <method signature="RunnerBase.scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qa.runners.MyPixel3TestNGRunnerTest@306e95ec]" name="scenario" class="com.qa.runners.RunnerBase"/>
+        <method signature="RunnerBase.scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qa.runners.MyPixel2XLTestNGRunnerTest@4b0d79fc]" name="scenario" class="com.qa.runners.RunnerBase"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-04-15T17:55:25 GMT-04:00" name="Pixel3" finished-at="2023-04-15T17:55:26 GMT-04:00" duration-ms="1198">
+      <class name="com.qa.runners.MyPixel3TestNGRunnerTest">
+        <test-method is-config="true" signature="setUpClass(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.runners.MyPixel3TestNGRunnerTest@306e95ec]" started-at="2023-04-15T17:55:25 GMT-04:00" name="setUpClass" finished-at="2023-04-15T17:55:26 GMT-04:00" duration-ms="1040" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[emulator-5554]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pixel_3a_API_30_x86]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10000]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[11000]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[iOS]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[iOS]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.appium.java_client.service.local.InvalidServerInstanceException">
+            <message>
+              <![CDATA[The main Appium script does not exist at '/Users/venkat/Documents/learngit/LEARNGIT/appium-cucumberbdd-testng-master/appium/build/lib/main.js']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.appium.java_client.service.local.InvalidServerInstanceException: The main Appium script does not exist at '/Users/venkat/Documents/learngit/LEARNGIT/appium-cucumberbdd-testng-master/appium/build/lib/main.js'
+at io.appium.java_client.service.local.AppiumServiceBuilder.findMainScript(AppiumServiceBuilder.java:163)
+at io.appium.java_client.service.local.AppiumServiceBuilder.loadPathToMainScript(AppiumServiceBuilder.java:317)
+at io.appium.java_client.service.local.AppiumServiceBuilder.createArgs(AppiumServiceBuilder.java:373)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:358)
+at io.appium.java_client.service.local.AppiumDriverLocalService.buildService(AppiumDriverLocalService.java:91)
+at com.qa.utils.ServerManager.WindowsGetAppiumService(ServerManager.java:38)
+at com.qa.utils.ServerManager.startServer(ServerManager.java:21)
+at com.qa.runners.RunnerBase.setUpClass(RunnerBase.java:49)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.appium.java_client.service.local.InvalidServerInstanceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qa.runners.MyPixel3TestNGRunnerTest@306e95ec]" started-at="2023-04-15T17:55:26 GMT-04:00" name="scenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-04-15T17:55:26 GMT-04:00" duration-ms="0" status="SKIP">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "io.cucumber.testng.TestNGCucumberRunner.provideScenarios()" because the return value of "com.qa.runners.RunnerBase.getRunner()" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.NullPointerException: Cannot invoke "io.cucumber.testng.TestNGCucumberRunner.provideScenarios()" because the return value of "com.qa.runners.RunnerBase.getRunner()" is null
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:50)
+at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:146)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:798)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.NullPointerException: Cannot invoke "io.cucumber.testng.TestNGCucumberRunner.provideScenarios()" because the return value of "com.qa.runners.RunnerBase.getRunner()" is null
+at com.qa.runners.RunnerBase.scenarios(RunnerBase.java:62)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:77)
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:46)
+... 20 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.qa.runners.MyPixel3TestNGRunnerTest@306e95ec]" started-at="2023-04-15T17:55:26 GMT-04:00" name="tearDownClass" finished-at="2023-04-15T17:55:26 GMT-04:00" duration-ms="94" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "io.cucumber.testng.TestNGCucumberRunner.finish()" because the return value of "com.qa.runners.RunnerBase.getRunner()" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "io.cucumber.testng.TestNGCucumberRunner.finish()" because the return value of "com.qa.runners.RunnerBase.getRunner()" is null
+at com.qa.runners.RunnerBase.tearDownClass(RunnerBase.java:77)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:217)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:130)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.qa.runners.MyPixel3TestNGRunnerTest -->
+    </test> <!-- Pixel3 -->
+    <test started-at="2023-04-15T17:55:25 GMT-04:00" name="Pixel2XL" finished-at="2023-04-15T17:55:31 GMT-04:00" duration-ms="6428">
+      <class name="com.qa.runners.MyPixel2XLTestNGRunnerTest">
+        <test-method is-config="true" signature="setUpClass(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.runners.MyPixel2XLTestNGRunnerTest@4b0d79fc]" started-at="2023-04-15T17:55:25 GMT-04:00" name="setUpClass" finished-at="2023-04-15T17:55:31 GMT-04:00" duration-ms="6370" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[emulator-5556]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Pixel_4_API_30]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10001]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[11001]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[iOS]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[iOS]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.appium.java_client.service.local.InvalidServerInstanceException">
+            <message>
+              <![CDATA[The main Appium script does not exist at '/Users/venkat/Documents/learngit/LEARNGIT/appium-cucumberbdd-testng-master/appium/build/lib/main.js']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.appium.java_client.service.local.InvalidServerInstanceException: The main Appium script does not exist at '/Users/venkat/Documents/learngit/LEARNGIT/appium-cucumberbdd-testng-master/appium/build/lib/main.js'
+at io.appium.java_client.service.local.AppiumServiceBuilder.findMainScript(AppiumServiceBuilder.java:163)
+at io.appium.java_client.service.local.AppiumServiceBuilder.loadPathToMainScript(AppiumServiceBuilder.java:317)
+at io.appium.java_client.service.local.AppiumServiceBuilder.createArgs(AppiumServiceBuilder.java:373)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:358)
+at io.appium.java_client.service.local.AppiumDriverLocalService.buildService(AppiumDriverLocalService.java:91)
+at com.qa.utils.ServerManager.WindowsGetAppiumService(ServerManager.java:38)
+at com.qa.utils.ServerManager.startServer(ServerManager.java:21)
+at com.qa.runners.RunnerBase.setUpClass(RunnerBase.java:49)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.appium.java_client.service.local.InvalidServerInstanceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qa.runners.MyPixel2XLTestNGRunnerTest@4b0d79fc]" started-at="2023-04-15T17:55:31 GMT-04:00" name="scenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-04-15T17:55:31 GMT-04:00" duration-ms="0" status="SKIP">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "io.cucumber.testng.TestNGCucumberRunner.provideScenarios()" because the return value of "com.qa.runners.RunnerBase.getRunner()" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.NullPointerException: Cannot invoke "io.cucumber.testng.TestNGCucumberRunner.provideScenarios()" because the return value of "com.qa.runners.RunnerBase.getRunner()" is null
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:50)
+at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:146)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:798)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.NullPointerException: Cannot invoke "io.cucumber.testng.TestNGCucumberRunner.provideScenarios()" because the return value of "com.qa.runners.RunnerBase.getRunner()" is null
+at com.qa.runners.RunnerBase.scenarios(RunnerBase.java:62)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:77)
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:46)
+... 20 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.qa.runners.MyPixel2XLTestNGRunnerTest@4b0d79fc]" started-at="2023-04-15T17:55:31 GMT-04:00" name="tearDownClass" finished-at="2023-04-15T17:55:31 GMT-04:00" duration-ms="0" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "io.cucumber.testng.TestNGCucumberRunner.finish()" because the return value of "com.qa.runners.RunnerBase.getRunner()" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "io.cucumber.testng.TestNGCucumberRunner.finish()" because the return value of "com.qa.runners.RunnerBase.getRunner()" is null
+at com.qa.runners.RunnerBase.tearDownClass(RunnerBase.java:77)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:217)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:130)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.qa.runners.MyPixel2XLTestNGRunnerTest -->
+    </test> <!-- Pixel2XL -->
+  </suite> <!-- Suite -->
+</testng-results>
